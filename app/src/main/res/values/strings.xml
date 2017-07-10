@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MockID</string>
+    <string name="title_activity_launcher">Mock ID</string>
+    <string name="api_key">API key: %1$s</string>
+    <string name="module_id">Module ID: %1$s</string>
+    <string name="user_id">User ID: %1$s</string>
+    <string name="metadata">Metadata: %1$s</string>
+    <string name="button_return">Return to caller</string>
+</resources>
