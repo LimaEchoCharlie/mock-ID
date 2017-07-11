@@ -24,6 +24,7 @@
                 <category android:name="android.intent.category.DEFAULT"/>
                 <action android:name="com.simprints.id.REGISTER"/>
                 <action android:name="com.simprints.id.IDENTIFY"/>
+                <action android:name="com.simprints.id.VERIFY"/>
             </intent-filter>
         </activity>
     </application>

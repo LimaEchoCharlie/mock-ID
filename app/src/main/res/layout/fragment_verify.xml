@@ -8,6 +8,6 @@
         android:id="@+id/view_hello_world"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello register fragment world!" />
+        android:text="Hello verify fragment world!" />
 
 </LinearLayout>
