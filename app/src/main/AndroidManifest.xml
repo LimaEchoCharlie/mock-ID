@@ -17,21 +17,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".IdentifyActivity"
-            android:label="@string/title_activity_launcher"
-            android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <category android:name="android.intent.category.DEFAULT"/>
-                <action android:name="com.simprints.id.IDENTIFY"/>
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".RegisterActivity"
+            android:name=".CalloutActivity"
             android:label="@string/title_activity_launcher"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <action android:name="com.simprints.id.REGISTER"/>
+                <action android:name="com.simprints.id.IDENTIFY"/>
             </intent-filter>
         </activity>
     </application>

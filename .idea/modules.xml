@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\Simprints\Android\mock-id\app\app.iml" filepath="D:\Simprints\Android\mock-id\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/mock-id.iml" filepath="$PROJECT_DIR$/mock-id.iml" />
+      <module fileurl="file://D:\Simprints\Android\mock-id\mock-id.iml" filepath="D:\Simprints\Android\mock-id\mock-id.iml" />
     </modules>
   </component>
 </project>

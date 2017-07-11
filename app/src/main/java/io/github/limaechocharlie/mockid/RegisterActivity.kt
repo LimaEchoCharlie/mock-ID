@@ -15,10 +15,10 @@ class RegisterActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
 
-        var apiKey = getIntent().getStringExtra(Constants.SIMPRINTS_API_KEY)
-        var moduleId = getIntent().getStringExtra(Constants.SIMPRINTS_MODULE_ID)
-        var userId = getIntent().getStringExtra(Constants.SIMPRINTS_USER_ID)
-        var metadata = getIntent().getStringExtra(Constants.SIMPRINTS_METADATA)
+        var apiKey = intent.getStringExtra(Constants.SIMPRINTS_API_KEY)
+        var moduleId = intent.getStringExtra(Constants.SIMPRINTS_MODULE_ID)
+        var userId = intent.getStringExtra(Constants.SIMPRINTS_USER_ID)
+        var metadata = intent.getStringExtra(Constants.SIMPRINTS_METADATA)
 
         if( checkInputs(apiKey, moduleId, userId, metadata) )
             view_vailid_input.setImageResource(R.drawable.ic_check_circle_black)
