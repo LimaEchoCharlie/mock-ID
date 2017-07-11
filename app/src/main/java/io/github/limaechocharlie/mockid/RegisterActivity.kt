@@ -3,7 +3,10 @@ package io.github.limaechocharlie.mockid
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.simprints.libsimprints.Constants
-import kotlinx.android.synthetic.main.activity_identify.*
+import kotlinx.android.synthetic.main.activity_register.*
+import java.util.*
+import android.content.Intent
+import com.simprints.libsimprints.Registration
 
 
 class RegisterActivity : AppCompatActivity() {
@@ -25,8 +28,16 @@ class RegisterActivity : AppCompatActivity() {
         view_user_id.text = getString(R.string.user_id, userId)
         view_metadata.text = getString(R.string.metadata, metadata)
 
+        // return
+        var guid = UUID.randomUUID().toString()
+
+        view_guid.text = getString(R.string.register_guid, guid)
+
         return_to_caller.setOnClickListener {
-            setResult(Constants.SIMPRINTS_CANCELLED)//, resultData)
+            val registrationResult = Registration( guid )
+            val resultData = Intent(Constants.SIMPRINTS_REGISTER_INTENT)
+            resultData.putExtra(Constants.SIMPRINTS_REGISTRATION, registrationResult)
+            setResult(Constants.SIMPRINTS_OK, resultData)
             finish()
         }
     }

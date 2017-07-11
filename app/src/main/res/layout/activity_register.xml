@@ -29,6 +29,11 @@
         android:visibility="visible"
         app:srcCompat="@drawable/ic_report_problem_black"/>
 
+    <TextView
+        android:id="@+id/view_guid"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+
     <Button
         android:id="@+id/return_to_caller"
         android:layout_width="match_parent"

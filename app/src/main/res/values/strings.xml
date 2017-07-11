@@ -6,4 +6,5 @@
     <string name="user_id">User ID: %1$s</string>
     <string name="metadata">Metadata: %1$s</string>
     <string name="button_return">Return to caller</string>
+    <string name="register_guid">The following guid will be returned: %1$s</string>
 </resources>
