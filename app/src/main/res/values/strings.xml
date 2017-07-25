@@ -8,4 +8,30 @@
     <string name="intent">Intent: %1$s</string>
     <string name="button_return">Return to caller</string>
     <string name="register_guid">The following guid will be returned: %1$s</string>
+    <string name="hint_api_key">API key</string>
+    <string name="hint_module_id">Module ID</string>
+    <string name="hint_username">Username</string>
+    <string name="button_call_simprints">Call Simprints</string>
+    <string-array name="intents_array">
+        <item>Register</item>
+        <item>Identify</item>
+        <item>Verify</item>
+    </string-array>
+    <string name="pref_api_key">apiKey</string>
+    <string name="pref_module_id_key">moduleId</string>
+    <string name="pref_username_key">username</string>
+
+    <string name="error_missing_intent">Return intent is missing</string>
+    <string name="error_cancelled">Simprints cancelled</string>
+    <string name="error_missing_api_key">Missing API key</string>
+    <string name="error_invalid_api_key">Invalid API key</string>
+    <string name="error_missing_user_id">Missing user id</string>
+    <string name="error_missing_module_id">Missing module id</string>
+    <string name="error_invalid_intent">Invalid intent</string>
+    <string name="error_invalid_update_guid">Invalid update guid</string>
+    <string name="error_missing_update_guid">Missing update guid</string>
+    <string name="error_missing_verify_guid">Missing verify guid</string>
+    <string name="error_invalid_metadata">Invalid Metadata</string>
+    <string name="error_verify_guid_not_found_online">Verify guid not found online</string>
+    <string name="error_verify_guid_not_found_offline">Verify guid not found offline</string>
 </resources>
